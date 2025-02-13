@@ -11,9 +11,6 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-# Set environment variable for production
-ENV NODE_ENV=production
-
 # Expose the application port
 EXPOSE 3000
 
