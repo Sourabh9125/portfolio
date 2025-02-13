@@ -1,18 +1,21 @@
-# Build stage
-FROM node:18-alpine AS builder
+FROM node:18-alpine
+
+# Set the working directory
 WORKDIR /app
+
+# Copy package files and install dependencies
 COPY package*.json ./
 RUN npm install
+
+# Copy the entire project and build the application
 COPY . .
 RUN npm run build
 
-# Production stage
-FROM node:18-alpine AS production
-WORKDIR /app
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/node_modules ./node_modules
+# Set environment variable for production
 ENV NODE_ENV=production
+
+# Expose the application port
 EXPOSE 3000
+
+# Start the application
 CMD ["npm", "start"]
