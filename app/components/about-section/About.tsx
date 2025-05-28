@@ -39,7 +39,7 @@ export default function About() {
             streamlined operations.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            Since diving into DevOps practices in 2019, I&apos;ve continuously evolved my skillset, mastering various cloud 
+            I&apos;ve continuously evolved my skillset, mastering various cloud 
             platforms and automation tools. I&apos;ve developed a deep understanding of CI/CD practices, monitoring solutions, 
             and security implementations, ensuring systems run efficiently and securely in production environments.
           </AnimatedBody>

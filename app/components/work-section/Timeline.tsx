@@ -7,11 +7,11 @@ const syne = Syne({ subsets: ["latin"] });
 
 const TimelineData = [
   {
-    companyImg: "/company1.png",
-    jobTitle: "Senior DevOps Engineer",
-    company: "Bluechip Technologies",
-    jobType: "Full-time",
-    duration: "Mar 2024 - Present",
+    companyImg: "/logo.png",
+    jobTitle: "Web Developer",
+    company: "radR",
+    jobType: "Internship",
+    duration: "May 2024 - Oct 2024",
     stuffIDid: [
       "Architected and implemented a comprehensive CI/CD pipeline using Jenkins and GitLab CI, reducing deployment time by 70% and improving release reliability.",
       "Orchestrated migration of legacy applications to containerized microservices using Docker and Kubernetes, achieving 40% reduction in infrastructure costs.",
@@ -19,20 +19,6 @@ const TimelineData = [
       "Designed and deployed a robust monitoring solution using Prometheus and Grafana, achieving 99.99% system uptime and reducing incident response time by 60%.",
       "Led the implementation of GitOps practices using ArgoCD, resulting in consistent deployment patterns and improved collaboration between development and operations teams.",
       "Established security best practices including HashiCorp Vault for secrets management and implemented automated security scanning in the CI pipeline.",
-    ],
-  },
-  {
-    companyImg: "/company1.png",
-    jobTitle: "DevOps Engineer",
-    company: "NNPC",
-    jobType: "Full-time",
-    duration: "July 2023 - Feb 2024",
-    stuffIDid: [
-      "Developed and maintained automation scripts in Python and Bash, reducing manual operational tasks by 50%.",
-      "Implemented ELK Stack for centralized logging and monitoring, improving system observability and troubleshooting efficiency.",
-      "Managed AWS cloud infrastructure including EC2, S3, RDS, and Lambda, ensuring high availability and scalability of production systems.",
-      "Collaborated with development teams to optimize container images and Kubernetes configurations, resulting in 30% improvement in resource utilization.",
-      "Implemented automated backup and disaster recovery solutions, achieving RPO of 15 minutes and RTO of 1 hour.",
     ],
   },
 ];

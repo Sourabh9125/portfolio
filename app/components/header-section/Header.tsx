@@ -16,7 +16,7 @@ export default function Header() {
       <div className="fixed max-w-[90%] xl:max-w-[1223px] w-full z-10 select-none">
         <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
           <Image
-            src="/ade-logo.svg"
+            src="/SLogo.png"
             width={32}
             height={36}
             alt="logo"
@@ -57,14 +57,14 @@ export default function Header() {
           <div className="gap-5 text-xl hidden sm:flex">
             <Link
               target="_blank"
-              href="https://linkedin.com/in/your_username"
+              href="www.linkedin.com/in/sourabh-lodhi-bb609b205"
             >
               <Icon icon="hugeicons:linkedin-01" />
             </Link>
-            <Link target="_blank" href="https://github.com/your_username">
+            <Link target="_blank" href="https://github.com/sourabh9125">
               <Icon icon="hugeicons:github" />
             </Link>
-            <Link target="_blank" href="https://x.com/your_username">
+            <Link target="_blank" href="https://x.com/SLodhi22979">
               <Icon icon="akar-icons:x-fill" />
             </Link>
           </div>

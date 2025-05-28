@@ -13,21 +13,21 @@ export default function Works() {
 
   const works = [
     {
-      title: "kubernetes-gitops-platform",
-      gitLink: "https://github.com/your_username/kubernetes-gitops-platform",
-      liveLink: "https://docs-kubernetes-gitops.example.com",
+      title: "Two-Tier-Flask-App",
+      gitLink: "https://github.com/Sourabh9125/two-tier-flask-app",
+      liveLink: "https://flask-app.com",
       about:
-        "A production-grade GitOps platform built on Kubernetes using ArgoCD and Flux. Features automated deployment pipelines, infrastructure as code templates, and comprehensive monitoring setup with Prometheus and Grafana dashboards.",
-      stack: ["kubernetes", "argocd", "terraform", "prometheus", "golang"],
+        "Develops a minimalist message board with Flask as the backend and MySQL as the database. The application enables users to post and browse messages through a simple web interface.",
+      stack: ["kubernetes", "docker", "python", "jenkins", "Prometheus"],
       img: "/project.png",
     },
     {
-      title: "cloud-native-cicd",
-      gitLink: "https://github.com/your_username/cloud-native-cicd",
+      title: "AWS-Serverless-Project",
+      gitLink: "https://github.com/Sourabh9125/aws-serverless-project.git",
       liveLink: "https://cloud-native-cicd.example.com",
       about:
-        "Scalable CI/CD platform leveraging Jenkins, Docker, and Kubernetes. Implements infrastructure as code using Terraform for AWS resources, includes automated testing, security scanning, and blue-green deployment strategies.",
-      stack: ["jenkins", "docker", "aws", "terraform", "python"],
+        "This template creates a simple HTTP API based on Node.js on AWS Lambda and API Gateway, with the Serverless Framework managing things.It includes a mutiple functions that can be deployed and invoked both remotely and locally.It supports local development with serverless-offline.Once deployed, the API is exposed to the public unless it is protected with an authorizer.",
+      stack: ["AWS", "Serverless", "python", "AWS Lambda", "API Gateway"],
       img: "/project.png",
     },
     {

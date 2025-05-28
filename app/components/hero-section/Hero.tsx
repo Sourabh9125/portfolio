@@ -95,7 +95,7 @@ export default function Hero() {
         >
           <p className="text-white/60 inline">I&apos;m </p>
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-          your_username
+          Sourabh Lodhi
           </span>
           <p>a DevOps Engineer</p>
         </motion.h1>
@@ -113,7 +113,6 @@ export default function Hero() {
       <div data-blobity-tooltip="Soft man">
         <motion.div
           ref={imgRef}
-          style={{ rotate }}
           className="h-image flex items-center w-[310px] h-[380px] xl:w-[390px] xl:h-[470px] justify-center relative"
           initial={{ opacity: 0 }}
           animate={animateIn1}
@@ -122,7 +121,7 @@ export default function Hero() {
             src="/image.png"
             priority
             fill
-            alt="Ade's picture"
+            alt="myImage"
             className="bg-image-radial px-10 pt-20"
           />
         </motion.div>

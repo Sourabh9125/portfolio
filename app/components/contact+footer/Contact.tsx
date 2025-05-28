@@ -45,6 +45,10 @@ export default function Contact() {
 
   function onSubmit(data: any) {
     console.log(data);
+    console.log("SERVICE:", process.env.NEXT_PUBLIC_SERVICE_ID);
+    console.log("TEMPLATE:", process.env.NEXT_PUBLIC_TEMPLATE_ID);
+    console.log("PUBLIC KEY:", process.env.NEXT_PUBLIC_PUBLIC_KEY);
+
 
     emailjs
       .sendForm(
