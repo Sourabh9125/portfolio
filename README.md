@@ -14,11 +14,6 @@ A modern, responsive portfolio website built with Next.js 14, React 18, and Tail
 - 🎨 Modern and clean UI/UX
 - 🔍 SEO optimized
 
-## Gallery
-
-![Portfolio Screenshot1](./community_project_demo_1.png)
-![Portfolio Screenshot2](./community_project_demo_2.png)
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
