@@ -119,10 +119,11 @@ export default function Hero() {
         >
           <Image
             src="/image.png"
+            className="object-cover bg-image-radial pt-8 rounded-xl"
             priority
             fill
             alt="myImage"
-            className="bg-image-radial px-10 pt-20"
+            // className="bg-image-radial px-10 pt-20"
           />
         </motion.div>
       </div>

@@ -18,7 +18,7 @@ export default function Works() {
       liveLink: "https://flask-app.com",
       about:
         "Develops a minimalist message board with Flask as the backend and MySQL as the database. The application enables users to post and browse messages through a simple web interface.",
-      stack: ["kubernetes", "docker", "python", "jenkins", "Prometheus"],
+      stack: ["kubernetes", "docker", "python", "jenkins", "Prometheus","DevSecops"],
       img: "/project.png",
     },
     {
@@ -28,7 +28,7 @@ export default function Works() {
       about:
         "This template creates a simple HTTP API based on Node.js on AWS Lambda and API Gateway, with the Serverless Framework managing things.It includes a mutiple functions that can be deployed and invoked both remotely and locally.It supports local development with serverless-offline.Once deployed, the API is exposed to the public unless it is protected with an authorizer.",
       stack: ["AWS", "Serverless", "python", "AWS Lambda", "API Gateway"],
-      img: "/project.png",
+      img: "/serverless.png",
     },
     {
       title: "infrastructure-monitoring-suite",
@@ -36,17 +36,26 @@ export default function Works() {
       liveLink: "https://monitoring-suite.example.com",
       about:
         "Comprehensive monitoring solution combining ELK Stack for log aggregation, Prometheus for metrics collection, and custom Grafana dashboards. Features automated alerting, log parsing, and performance analytics.",
-      stack: ["elasticsearch", "prometheus", "grafana", "ansible", "python"],
-      img: "/project.png",
+      stack: [ "prometheus", "grafana", "ansible", "python"],
+      img: "/infra.PNG",
     },
     {
-      title: "container-security-platform",
-      gitLink: "https://github.com/your_username/container-security-platform",
-      liveLink: "https://security-platform.example.com",
+      title: "Full-stack-chat-application",
+      gitLink: "https://github.com/Sourabh9125/full_stack-chat-app.git",
+      liveLink: "#",
       about:
-        "Security-focused container platform implementing vulnerability scanning, secret management with HashiCorp Vault, and automated compliance checks. Includes CI/CD integration and real-time security monitoring.",
-      stack: ["docker", "vault", "kubernetes", "python", "bash"],
-      img: "/project.png",
+        "This is a full-stack real-time chat application built with Node.js, React, and Socket.io, designed for scalability and performance. The app is fully Dockerized and leverages DevOps practices to reduce deployment time, ensure environment consistency, and enable easier debugging. With plans for CI/CD integration and Kubernetes orchestration, it’s optimized for future scalability, observability, and efficient infrastructure management. Real-time security monitoring.",
+      stack: ["docker", "MongoDB", "kubernetes", "React",  "jenkins", "Prometheus","DevSecops"],
+      img: "/chat-app.PNG",
+    },
+    {
+      title: "Node-todo-cicd",
+      gitLink: "https://github.com/Sourabh9125/node-todo-cicd/tree/dev",
+      liveLink: "#",
+      about:
+        "This is a Node.js Todo application integrated with a complete CI/CD pipeline using Docker, Docker Compose, and Jenkins. It follows modern DevOps practices to automate building, testing, and deploying the app in containerized environments.Security-focused container platform implementing vulnerability scanning, secret management with HashiCorp Vault, and automated compliance checks. Includes CI/CD integration and real-time security monitoring.",
+      stack: ["docker", "kubernetes", "React",  "jenkins", "Prometheus","DevSecops"],
+      img: "/node-todo.png",
     },
   ];
 
