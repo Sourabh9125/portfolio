@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef,} from "react";
+import Link from "next/link";
 import {
   delay,
   easeIn,
@@ -126,6 +127,14 @@ export default function Hero() {
             // className="bg-image-radial px-10 pt-20"
           />
         </motion.div>
+        <Link
+              className="border-2 border-green-700 text-2xl py-2 px-4 rounded-lg absolute bottom-0 right-0 m-6 bg-green-700/10 hover:bg-green-700/20 transition-colors"
+              href={
+                "https://drive.google.com/file/d/18AiH8kYY9UfLHr4v5HikF2NXxB9Nxla3/view?usp=drive_link to your drive uploaded resume"
+              }
+            >
+              👉 Resume
+            </Link>
       </div>
     </section>
   );

@@ -46,14 +46,14 @@ export default function About() {
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
             Every infrastructure challenge presents an opportunity to innovate and implement best practices. I&apos;m passionate 
             about creating maintainable, scalable solutions that help teams deliver software more efficiently. Want to know more? Here&apos;s <br className="hidden md:block" />
-            <Link
+            {/* <Link
               className="underline"
               href={
-                "https://drive.google.com/file/d/link to your drive uploaded resume"
+                "https://drive.google.com/file/d/18AiH8kYY9UfLHr4v5HikF2NXxB9Nxla3/view?usp=drive_link"
               }
             >
               my resume
-            </Link>
+            </Link> */}
             .
           </AnimatedBody>
         </div>
